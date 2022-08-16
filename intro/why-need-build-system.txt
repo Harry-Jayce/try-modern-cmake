@@ -1,0 +1,18 @@
+title: Why we need build system?
+
+content:
+1st-para:
+    C++ is a good coding language, but it doesn't provide convenient tool to generate code.
+    Build system is a tool to quick generate code in a very short way. 
+    Often the past way using compiler should input a long list of cmds, this will have many repeated work and just waste time.
+    Later, emerging tools as Makefile, it could encapsulate long cmds to a short format.
+    But not good as expected, because the design time of Makefile is very old, having so many defects which makes it hard to learn and maintain.
+    So CMake just birth to solve problems as build project and generate code.
+    It is not perfect in any situation, but having lots of benefits than others, which is very popular in C++ coders.
+    In short, CMake can use in computer, embedded system for C/C++ projects.
+
+2nd-para:
+    Another reason to use CMake is that it is cross-platform. it is a high level concept, because people find that some code in different platform have same logic.
+    So the final software developed goal is back to the proverb "Write once, run everywhere".
+    And it is also a hard dream, but with perseverance we will reach it.
+
