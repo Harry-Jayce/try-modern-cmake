@@ -1,0 +1,16 @@
+A build script should be look like
+
+Script often should do many things to config the tool chain.
+
+As CMake, it should these things:
+1. Config C++ compiler
+2. Make sure the include and src dirs.
+3. Make sure where the executable generated
+4. Make sure where the static and shared library stored.
+5. Link shared library to main.o (object file).
+6. Link static library into the executable.
+7. Let src files to find header files.
+8. Make sure the compiler flags.
+
+
+
